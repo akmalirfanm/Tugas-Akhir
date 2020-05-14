@@ -33,8 +33,8 @@ public class Login extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -68,10 +68,13 @@ public class Login extends javax.swing.JFrame {
         jLabel2.setToolTipText("");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 20, 370, 80));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/rsz_1sky.jpg"))); // NOI18N
-        jPanel2.add(jLabel5);
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tugasakhir/rsz_saoimages_burned.png"))); // NOI18N
+        jLabel5.setText("jLabel5");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 270, 250, 230));
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 500));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tugasakhir/rsz_1sky.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 0, 700, 500));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -130,11 +133,11 @@ public class Login extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JButton loginbutton;
     private javax.swing.JPasswordField password;
     private javax.swing.JTextField username;

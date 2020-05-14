@@ -54,7 +54,6 @@ public class menubayar extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         totalharga = new javax.swing.JTextField();
         bpcash = new javax.swing.JTextField();
-        jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -198,10 +197,9 @@ public class menubayar extends javax.swing.JFrame {
         getContentPane().add(totalharga, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 90, 160, 30));
         getContentPane().add(bpcash, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 170, 160, 30));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/rsz_1sky.jpg"))); // NOI18N
-        jPanel2.add(jLabel1);
-
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 500));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tugasakhir/rsz_1sky.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 0, 700, 500));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -351,7 +349,6 @@ public class menubayar extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JButton logoutbutton;
     private javax.swing.JTable ordertable;
