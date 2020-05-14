@@ -54,8 +54,8 @@ public class menubayar extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         totalharga = new javax.swing.JTextField();
         bpcash = new javax.swing.JTextField();
-        jPanel1 = new javax.swing.JPanel();
-        jLabel8 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -198,10 +198,10 @@ public class menubayar extends javax.swing.JFrame {
         getContentPane().add(totalharga, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 90, 160, 30));
         getContentPane().add(bpcash, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 170, 160, 30));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\PREDATOR\\Downloads\\rsz_1sky.jpg")); // NOI18N
-        jPanel1.add(jLabel8);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/rsz_1sky.jpg"))); // NOI18N
+        jPanel2.add(jLabel1);
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 500));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 500));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -343,15 +343,15 @@ public class menubayar extends javax.swing.JFrame {
     private javax.swing.JCheckBox cbxbp;
     private javax.swing.JCheckBox cbxdiamond;
     private javax.swing.JCheckBox cbxexpcards;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JButton logoutbutton;
     private javax.swing.JTable ordertable;
