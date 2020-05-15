@@ -237,8 +237,10 @@ public class menubayar extends javax.swing.JFrame {
     }//GEN-LAST:event_logoutbuttonActionPerformed
 
     private void buybuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buybuttonActionPerformed
-        double harga = Double.parseDouble(totalharga.getText());
-        double uang = Double.parseDouble(bpcash.getText());
+        if (totalharga.getText() != "")
+        {
+            double harga = Double.parseDouble(totalharga.getText());
+            double uang = Double.parseDouble(bpcash.getText());
             if (uang >= harga)
             {
                 JOptionPane.showMessageDialog (buybutton, "Pembayaran Berhasil, Terima Kasih!");
@@ -247,8 +249,14 @@ public class menubayar extends javax.swing.JFrame {
             {
                 JOptionPane.showMessageDialog (buybutton, "Maaf, Saldo Anda tidak cukup");
             }
+        }
+        else
+        {
+            JOptionPane.showMessageDialog (buybutton, "Mohon untuk Add Item terlebih dahulu!");
+        }
+        
     }//GEN-LAST:event_buybuttonActionPerformed
-
+    
     private void amount3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_amount3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_amount3ActionPerformed
@@ -328,7 +336,7 @@ public class menubayar extends javax.swing.JFrame {
             public void run() {
                 new menubayar().setVisible(true);
             }
-        });
+         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
